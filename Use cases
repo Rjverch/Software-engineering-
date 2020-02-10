@@ -1,0 +1,22 @@
+Customer:
+Select food
+Enter time for delivery
+Enter address
+Place order
+Review order
+Payment options
+Cancel order?
+View order status
+
+Employee:
+View orders
+Mark order as in progress
+Mark order as Ready
+
+
+
+1: payment
+2: create order
+3: (employee looks at order and messes with status)
+4: customer can view order status and cancel it
+5: driver can look at finished orders and pick one and see its address
