@@ -1,2 +1,13 @@
-Project Summary: The project will be a delivery system operated by some restaurant. From the user’s perspective, they can order something from the menu. When doing so, they must give a valid form of payment (credit card) or choose to pay later with cash. They must also input their delivery address (number and street name) and phone number. After they have successfully ordered, they are able to view the current progress of their order and the ETA.
-From the restaurants perspective, they are able to cancel an order( and void payment), change an order’s progress manually if needed, or change an existing order’s menu choice. The restaurant can have multiple orders at a time, so each order will need to be given it’s own number or confirmation code. With no interference from the restaurant, the application will go from Being made, Cooking, ready to be delivered, delivery in progress, and Delivered. If there is a mistake or delivery could not be completed for any reason, the restaurant can manually change the progress to (Unable to Deliver, Call the store)
+Project Summary: The project will be a delivery system operated by some restaurant. 
+From the user’s perspective, they can order something from the menu. When doing so, 
+they must give a valid form of payment (credit card) or choose to pay later with cash. 
+They must also input their delivery address (number and street name) and phone number. 
+After they have successfully ordered, they are able to view the current progress of their order and the ETA.
+
+From the restaurants perspective, they are able to cancel an order( and void payment),
+change an order’s progress manually if needed, or change an existing order’s menu choice. 
+The restaurant can have multiple orders at a time, so each order will need to be given it’s own 
+number or confirmation code. With no interference from the restaurant, the application will go 
+from Being made, Cooking, ready to be delivered, delivery in progress, and Delivered. 
+If there is a mistake or delivery could not be completed for any reason, the restaurant 
+can manually change the progress to (Unable to Deliver, Call the store)
