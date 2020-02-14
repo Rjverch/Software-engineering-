@@ -12,10 +12,10 @@ public class MainDriver {
     	System.out.print("Press 1 to 'View order', 2 to 'Cancel' 3 to 'Edit order'");
     	
         input = new Scanner(System.in);
-    	int number = input.nextInt();
+    	int number = 0;
     	while ((number = input.nextInt()) != -1)
     	{    	
-		
+	number = input.nextInt();
     	if(number==1) {
         System.out.print("VIEWING MODE\n");
         System.out.print("----------------\n");
@@ -29,7 +29,10 @@ public class MainDriver {
           System.exit(number);
     	}
     	else if (number==3) {
-    		//call edit order method
+    		EditOrder edit = new EditOrder();
+		String fileName = "";
+		System.out.println("enter order number");
+		edit.Editorder(fileName, sc.nextInt());
     	}
     	else {
             System.out.print("Please enter a valied number");
