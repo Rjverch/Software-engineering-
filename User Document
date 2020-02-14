@@ -14,3 +14,8 @@ Use-case-View order(Raul Jimenez)
   correct file it displays the order. After the order has been view, the user can exit the “view order mode” and continue 
   with the program. 
 
+Use Case - Edit order(Oliver Jiang)
+	The use case "Edit Order" allows the customer to edit a previously placed order. If the customer wants to change
+	the order details, the customer can select "edit order" and enter their order number. The method scans the file to
+	find the correct order. Then the method prompts the customer to enter the new order details. The new order 
+	details are then saved to the file.
