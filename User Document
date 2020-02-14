@@ -5,3 +5,12 @@ the expiration of the card, the zip code of the card, and the security code of t
 customer to ensure they are only digits, as well as to ensure they are the proper length. When all inputs have been deemed legitimate,
 the method ends and thanks the customer for payment. If the customer chooses to pay cash, the method reminds the customer of the total,
 and to be ready to pay when the delivery driver arrives at the customer's residence.
+
+
+Use-case-View order(Raul Jimenez)
+	The use case “View order” allows the customer to view a previously placed order. After the user has placed an order, 
+  him or her can go back to view it and they can decide between placing the order and other options within the main driver.
+  The method checks the file name and file path in order to access the appropriate order. Once the scanner has found the 
+  correct file it displays the order. After the order has been view, the user can exit the “view order mode” and continue 
+  with the program. 
+
