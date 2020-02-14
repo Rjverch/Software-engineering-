@@ -1,0 +1,7 @@
+Use Case- Payment (Seth Larson)
+The use case "Payment" helps the customer choose their method of payment and if they choose to pay card, takes the card information
+to be used by a credit card payment processor. The payment method asks for the credit card number which must contain 15-16 digits, 
+the expiration of the card, the zip code of the card, and the security code of the card. The method checks the inputs given by the 
+customer to ensure they are only digits, as well as to ensure they are the proper length. When all inputs have been deemed legitimate,
+the method ends and thanks the customer for payment. If the customer chooses to pay cash, the method reminds the customer of the total,
+and to be ready to pay when the delivery driver arrives at the customer's residence.
