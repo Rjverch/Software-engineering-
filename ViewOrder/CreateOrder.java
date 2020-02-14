@@ -1,10 +1,53 @@
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
 package Food.Delivery;
 
 public class CreateOrder {
+	int lastOrderNumber = 500;
+	public CreateOrder() {
+		
+	}
 	
-	static void createOrder() {
-		Scanner s = new Scanner(System.out);
-		System.out.println("View menu?");
+	void createOrder() {
+		Scanner s = new Scanner(System.in);
+		System.out.println("View menu? y/n");
+		if (s.next().toLowerCase().contains("y")) {
+			System.out.println("add menu text here");
+		}
+		String food = "";
+		while (true) {
+			System.out.println("Enter selection");
+			if (food.length() > 0) {
+				food = food + " and ";
+			}
+			food = food + s.nextLine();
+			System.out.println("Select another food? y/n");
+			if (!s.next().toLowerCase().contains("y")) {
+				break;
+			}
+		}
+		System.out.println("Enter name");
+		String name = s.nextLine();
+		System.out.println("Enter address");
+		String address = s.nextLine();
+		int orderNumber = ++lastOrderNumber;
+		String order = name + ", " + food + ", " + orderNumber +
+				", " + "Waiting on cook" + ", " + address;
+		
+		try {
+			FileWriter fileWriter = new FileWriter("../orders.csv", true);
+			PrintWriter printWriter = new PrintWriter(fileWriter);
+			printWriter.println(order);
+			printWriter.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
 		
 	}
 }
