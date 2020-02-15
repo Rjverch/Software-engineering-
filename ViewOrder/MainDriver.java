@@ -34,6 +34,10 @@ public class MainDriver {
 		System.out.println("enter order number");
 		edit.Editorder(fileName, sc.nextInt());
     	}
+    	else if (number == 4) {
+    		CreateOrder creator = new CreateOrder();
+    		creator.createOrder();
+    	}
     	else {
             System.out.print("Please enter a valied number");
 
