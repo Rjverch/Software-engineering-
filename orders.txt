@@ -1,1 +1,12 @@
 Jessie	Medium Pepperoni Pizza	103	In Oven	123 Sesame Street
+
+This file documents which columns in orders.csv mean what
+
+
+NAME, FOOD, NUMBER, STATUS, ADDRESS
+
+NAME: the customer's name
+FOOD: the food ordered by the customer
+NUMBER: the order number
+STATUS: the order status
+ADDRESS: the address the food shall be delivered to
