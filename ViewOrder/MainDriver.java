@@ -9,7 +9,7 @@ public class MainDriver {
 
 	public static void main(String[] args)throws IOException  {
 		System.out.print("Menu");
-    	System.out.print("Press 1 to 'View order', 2 to 'Cancel' 3 to 'Edit order'");
+    	System.out.print("Press 1 to 'View order', 2 to 'Cancel' 3 to 'Edit order', 4 to 'Create order'");
     	
         input = new Scanner(System.in);
     	int number = 0;
