@@ -21,7 +21,7 @@ public class MainDriver {
         System.out.print("----------------\n");
 
     	ViewOrder order =new ViewOrder();
-        String fileName = "C:\\Users\\cocos\\Documents\\software engineering 1\\Software-engineering--master\\orders.txt";
+        String fileName = "..\\orders.txt";
 		order.Vieworder(fileName);
     	}
     	else if(number==2) {
