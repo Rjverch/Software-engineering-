@@ -15,7 +15,7 @@ public class CreateOrder {
 		Scanner s = new Scanner(System.in);
 		System.out.println("View menu? y/n");
 		if (s.next().toLowerCase().contains("y")) {
-			System.out.println("add menu text here");
+			System.out.println("Pizza, burger, burrito, pudding, nachos");
 		}
 		String food = "";
 		while (true) {
