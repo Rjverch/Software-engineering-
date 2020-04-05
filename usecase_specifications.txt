@@ -1,0 +1,25 @@
+Payment:
+	Customer users must be able to pay for an order before it is sent to the vendor
+
+
+Create order:
+	Customer users must be able to create an order by
+	selecting foods from a menu
+	adding a name and addresses
+
+
+update order status:
+	Cook users must be able to change the status of an order to indicate how close to completion it is
+
+
+View and cancel order:
+	Customer users must be able to view orders that they have placed
+	see the status of their orders
+	and cancel them if they are not yet finished.
+	
+
+
+deliver order:
+	Driver users must be able to see orders with the 'finished' status as a list,
+	view the addresses of those orders,
+	and select one to deliver.
